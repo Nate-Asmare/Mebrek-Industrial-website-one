@@ -41,7 +41,7 @@ const Navbar = ({ toggle }) => {
                             MEBREK
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
-                            <FaBars />
+                            <FaBars color="#222"/>
                         </MobileIcon>
                         <NavMenu>
                             <NavItem>

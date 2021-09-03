@@ -15,23 +15,22 @@ export const HeroContainer = styled.div`
     height: 400px;
     position: relative;
     z-index: 1;
-    // border: 1px solid red;
+    
+    @media screen and (max-width: 768px){
+        background-image: url(${banner});
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    }
 
-    // :before { //this section is only here to give the hero section a little bit of black tint so that the background don't disturbe the content on the section
-    //     content: '';
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     right: 0;
-    //     bottom: 0;
-    //     background: linear-gradient(
-    //         180deg,
-    //         rgba(0,0,0,0.2) 0%,
-    //         rgba(0,0,0,0.2) 100%
-    //     ),
-    //     linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
-    //     z-index: 2;
-    // }
+    @media screen and (max-width: 480px){
+        background-image: url(${banner});
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
 `;
 
 export const HeroBg = styled.div`
@@ -55,6 +54,14 @@ export const HeroContent = styled.div`
     flex-direction: column;
     align-items: center;
     // border: 1px solid red;
+
+    @media screen and (max-width: 768px){
+        align-items: flex-start;
+    }
+
+    @media screen and (max-width: 480px){
+        align-items: left;
+    }
 `;
 
 export const HeroH1 = styled.h1`
@@ -68,11 +75,15 @@ export const HeroH1 = styled.h1`
     color: #13171C;
 
     @media screen and (max-width: 768px){
-        font-size: 40px;
+        font-size: 48px;
+        background: rgba(248,250,252,0.6);
+        text-align: left;
     }
 
     @media screen and (max-width: 480px){
         font-size: 32px;
+        text-align: left;
+        width: 75%;
     }
 `;
 

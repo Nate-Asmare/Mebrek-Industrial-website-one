@@ -13,13 +13,19 @@ const VideoSection = () => {
             <VideoWrapper>
                 <Header>Some of our videos</Header>
                 <Video>
-                    <ReactPlayer url="https://www.youtube.com/watch?v=EIm4HvDgQCM"/>
+                    <ReactPlayer 
+                        width="100%"
+                        url="https://www.youtube.com/watch?v=EIm4HvDgQCM"/>
                 </Video>   
                 <Video>
-                    <ReactPlayer url="https://www.youtube.com/watch?v=EIm4HvDgQCM"/>
+                    <ReactPlayer 
+                        width="100%"
+                        url="https://www.youtube.com/watch?v=EIm4HvDgQCM"/>
                 </Video>  
                 <Video>
-                    <ReactPlayer url="https://www.youtube.com/watch?v=EIm4HvDgQCM"/>
+                    <ReactPlayer 
+                        width="100%"
+                        url="https://www.youtube.com/watch?v=EIm4HvDgQCM"/>
                 </Video>  
             </VideoWrapper>
         </VideoContainer>

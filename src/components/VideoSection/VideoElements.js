@@ -15,7 +15,17 @@ export const Header = styled.h2`
 `;
 
 export const VideoWrapper = styled.div`
-    max-width: 1000px;
+    width: 700px;
+
+    @media screen and (max-width: 768px){
+        width: 100%;
+        height: auto;
+    }
+
+    @media screen and (max-width: 480px){
+        width: 100%;
+        height: auto;
+    }
 `;
 
 export const Video = styled.div`

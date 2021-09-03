@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactPhotoCollage } from "react-photo-collage";
+import { Carousel } from 'react-responsive-carousel';
 import { CollageContainer,
          CollageWrapper,
          Title,
@@ -17,32 +17,48 @@ import image9 from '../../images/collage2/certificate9.jpg';
 import image10 from '../../images/collage2/certificate10.jpg';
 import image11 from '../../images/collage2/certificate11.jpg';
 
-const setting = {
-    width: '800px',
-    height: ['550px', '170px'],
-    layout: [1, 4],
-    photos: [
-      { source: image1 },
-      { source: image2 },
-      { source: image3 },
-      { source: image4 },
-      { source: image5 },
-      { source: image6 },
-      { source: image7 },
-      { source: image8 },
-      { source: image9 },
-      { source: image11 },
-      { source: image9 },
-    ],
-    showNumOfRemainingPhotos: true
-  };
-
 const PhotoCollageCertificate = () => {
     return (
         <CollageContainer id="certificates">
             <CollageWrapper>
                 <Title>Certificates</Title>
-                <ReactPhotoCollage {...setting} />
+                <Carousel 
+                    autoPlay width="100%" 
+                    dynamicHeight="false"
+                    infiniteLoop="true"
+                    >
+                    <div>
+                        <img alt="" src={image1} />
+                    </div>
+                    <div>
+                        <img alt="" src={image2} />
+                    </div>
+                    <div>
+                        <img alt="" src={image3} />
+                    </div>
+                    <div>
+                        <img alt="" src={image4} />
+                    </div>
+                    <div>
+                        <img alt="" src={image5} />
+                    </div>
+                    <div>
+                        <img alt="" src={image6} />
+                    </div>
+                    <div>
+                        <img alt="" src={image7} />
+                    </div>
+                    
+                    <div>
+                        <img alt="" src={image9} />
+                    </div>
+                    <div>
+                        <img alt="" src={image10} />
+                    </div>
+                    <div>
+                        <img alt="" src={image11} />
+                    </div>
+                </Carousel>
             </CollageWrapper>
         </CollageContainer>
     )

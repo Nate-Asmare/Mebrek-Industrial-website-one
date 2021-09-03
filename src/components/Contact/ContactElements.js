@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContactContainer = styled.div`
-    height: 450px;
+    height: auto;
     background: #F8FAFC;
     display: flex;
     justify-content: center;
@@ -19,6 +19,11 @@ export const ContactWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
         grid-template-areas: 'col1' 'col2';
+    }
+
+    @media screen and (max-width: 480px){
+        width: 100%;
+        height: auto;
     }
 `;
 
@@ -47,6 +52,14 @@ export const ContactBlocks = styled.div`
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
+
+    @media screen and (max-width: 768px){
+        padding: 15px;
+    }
+
+    @media screen and (max-width: 480px){
+        padding: 10px;
+    }
 `;
 
 export const ContactIcon = styled.img`
@@ -54,6 +67,16 @@ export const ContactIcon = styled.img`
     margin: 0 auto;
     max-width: 70px;
     padding: 15px;
+
+    @media screen and (max-width: 768px){
+        max-width: 40px;
+        padding: 7px;
+    }
+
+    @media screen and (max-width: 480px){
+        max-width: 40px;
+        padding: 7px;
+    }
 `;
 
 export const ContactH2 = styled.h2`
@@ -80,6 +103,14 @@ export const ContactForm = styled.form`
     border-radius: 15px;
     background: rgba(255, 109, 106,0.3);
     box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+
+    @media screen and (max-width: 768px){
+        padding: 10px 15px;
+    }
+
+    @media screen and (max-width: 480px){
+        padding: 10px 15px;
+    }
 `;
 
 export const Header = styled.h2`
@@ -92,15 +123,39 @@ export const Header = styled.h2`
 export const Name = styled.input`
     margin: 8px 45px;
     height: 30px;
+
+    @media screen and (max-width: 768px){
+        margin: 8px 5px;
+    }
+
+    @media screen and (max-width: 480px){
+        margin: 8px 5px;
+    }
 `;
 
 export const Email = styled.input`
     margin: 8px 45px;
     height: 30px;
+
+    @media screen and (max-width: 768px){
+        margin: 8px 5px;
+    }
+
+    @media screen and (max-width: 480px){
+        margin: 8px 5px;
+    }
 `;
 export const Message = styled.textarea`
     margin: 8px 45px;
     height: 100px;
+
+    @media screen and (max-width: 768px){
+        margin: 8px 5px;
+    }
+
+    @media screen and (max-width: 480px){
+        margin: 8px 5px;
+    }
 `;
 
 export const Button = styled.button`
