@@ -54,11 +54,11 @@ export const ContactBlocks = styled.div`
     }
 
     @media screen and (max-width: 768px){
-        padding: 15px;
+        padding: 5px;
     }
 
     @media screen and (max-width: 480px){
-        padding: 10px;
+        padding: 5px;
     }
 `;
 

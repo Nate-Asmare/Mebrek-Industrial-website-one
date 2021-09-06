@@ -22,9 +22,9 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'ETP Manufacturing',
-    headline: 'Industrial ETP Manufacturing And Assembly',
+    headline: 'A new technology, electromechanical wastewater treatment plant',
     description: 
-        'Our inhouse build wastewater treatment machine can change the properties of the wastewater by removing harmful substances in order to turn it into a type of water that can be safely discharged into the environment. And this is all done without the use of any chemicals in the process.',
+        'Our inhouse build wastewater treatment machine can change the properties of the wastewater by removing harmful substances in order to turn it into a type of water that can be safely discharged into the environment. And this is all done without the use of any chemicals in the process. Our new technology has been well recognised by the country authorities and received a quality assurance certificate from the minister of science and technology. ',
     buttonLabel: 'Learn More',
     imgStart: false,
     img: require('../../images/water2.jpg'),
@@ -94,9 +94,9 @@ export const homeObjSix = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'High power',
-    headline: 'Sound system equipment import, installation and maintenance',
+    headline: 'Sound system equipment manufacture, installation and maintenance',
     description: 
-        'We import genuine sound system equipment like high power speakers and drivers, amplifiers, club lighting system, smock machine and also others. If you need a specific brand of sound system we got you covered.',
+        'Our company designs and manufactures high power sound systems. We also do installation and maintenance services for any sound system you have.',
     buttonLabel: 'Start Now',
     imgStart: false,
     img: require('../../images/twospeakers.jpeg'),

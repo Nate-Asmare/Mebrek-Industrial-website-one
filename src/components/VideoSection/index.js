@@ -15,18 +15,18 @@ const VideoSection = () => {
                 <Video>
                     <ReactPlayer 
                         width="100%"
-                        url="https://www.youtube.com/watch?v=EIm4HvDgQCM"/>
+                        url="https://youtu.be/s056B3WaWYU"/>
                 </Video>   
                 <Video>
                     <ReactPlayer 
                         width="100%"
-                        url="https://www.youtube.com/watch?v=EIm4HvDgQCM"/>
+                        url="https://youtu.be/W0o_K_UYRUo"/>
                 </Video>  
-                <Video>
+                {/* <Video>
                     <ReactPlayer 
                         width="100%"
                         url="https://www.youtube.com/watch?v=EIm4HvDgQCM"/>
-                </Video>  
+                </Video>   */}
             </VideoWrapper>
         </VideoContainer>
     )

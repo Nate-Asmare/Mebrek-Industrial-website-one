@@ -7,6 +7,7 @@ import Navbar from '../components/Navbar';
 import Services from '../components/Services';
 import Footer from '../components/Footer';
 import PhotoCollageProject from '../components/PhotoCollageProject';
+import PhotoCollageCertificate2 from '../components/PhotoCollageCertificate2';
 import PhotoCollageCertificate from '../components/PhotoCollageCertificate';
 import Contact from '../components/Contact';
 import VideoSection from '../components/VideoSection';
@@ -35,6 +36,7 @@ const Home = () => {
           <Services />
           <InfoSection {...homeObjOne} id="water-treatment"/>
           <InfoSection {...homeObjTwo} id="ETP"/>
+          <PhotoCollageCertificate2/>
           <InfoSection {...homeObjThree} id="Assembely"/>
           <InfoSection {...homeObjFour} id="PLC"/>
           <InfoSection {...homeObjFive} id="design"/>
