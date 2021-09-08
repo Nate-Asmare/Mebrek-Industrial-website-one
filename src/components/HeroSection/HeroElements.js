@@ -4,8 +4,8 @@ import banner from '../../images/wall.jpg';
 
 export const HeroContainer = styled.div`
     background-image: url(${banner});
-    // background-position: center;
-    // background-size: cover;
+    background-position: center;
+    background-size: cover;
     // background-repeat: no-repeat;
     // background-attachment: fixed;
     display: flex;
@@ -75,13 +75,13 @@ export const HeroH1 = styled.h1`
     color: #13171C;
 
     @media screen and (max-width: 768px){
-        font-size: 48px;
+        font-size: 38px;
         background: rgba(248,250,252,0.6);
         text-align: left;
     }
 
-    @media screen and (max-width: 480px){
-        font-size: 32px;
+    @media screen and (max-width: 500px){
+        font-size: 28px;
         text-align: left;
         width: 75%;
     }
@@ -105,22 +105,4 @@ export const HeroP = styled.p`
     @media screen and (max-width: 480px){
         font-size: 18px;
     }
-`;
-
-export const HeroBtnWrapper = styled.div`
-    margin-top: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // border: 1px solid red;
-`;
-
-export const ArrowForward = styled(MdArrowForward)`
-    margin-left: 8px;
-    font-size: 20px;
-`;
-
-export const ArrowRight = styled(MdKeyboardArrowRight)`
-    margin-left: 8px;
-    font-size: 20px;
 `;

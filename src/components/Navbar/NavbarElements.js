@@ -103,6 +103,12 @@ export const NavLinks = styled(LinkS)`
         background:#222;
         color: #fff;
     }
+
+    @media screen and (max-width: 940px) {
+        padding: 0.5rem 0.7rem;
+        margin: 22px 5px 0px 5px;
+        font-size: 12px;
+    }
 `;
 
 export const NavBtn = styled.nav`
@@ -134,5 +140,10 @@ export const NavBtnLink = styled(LinkS)`
         transition: all 0.2s ease-in-out;
         background: #F8FAFC;
         color: #222;
+    }
+
+    @media screen and (max-width: 940px) {
+        padding: 9px 15px;
+        font-size: 12px;
     }
 `

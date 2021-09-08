@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link as LinkS } from 'react-scroll';
 
 export const ServicesContainer = styled.div`
-    height: 650px;
+    // height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,13 +11,6 @@ export const ServicesContainer = styled.div`
     // border: 1px solid red;
     padding-bottom: 25px;
 
-    @media screen and (max-width: 768px) {
-        height: 1100px;
-    }
-
-    @media screen and (max-width: 480px) {
-        height: 1300px;
-    }
 `;
 
 export const ServicesWrapper = styled.div`
@@ -34,7 +27,7 @@ export const ServicesWrapper = styled.div`
         grid-template-columns: 1fr 1fr;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 530px) {
         grid-template-columns: 1fr;
         padding: 0 20px;
     }
@@ -48,6 +41,7 @@ export const ServicesCard = styled.div`
     align-items: center;
     border-radius: 10px;
     max-height: 250px;
+    max-width: 350px;
     padding: 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.6); //horizontal effect, vertical effect, blure radious, color
     transition: all 0.2s ease-in-out;

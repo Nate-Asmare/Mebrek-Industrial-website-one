@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-    height: 650px;
+    // height: 650px;
     background: #F8FAFC;
     display: flex;
     justify-content: center;
@@ -39,11 +39,11 @@ export const Title = styled.p`
     font-size: 40px;
 
     @media screen and (max-width: 768px){
-        font-size: 35px;
+        font-size: 38px;
     }
 
     @media screen and (max-width: 480px){
-        font-size: 35px;
+        font-size: 38px;
     }
 `;
 
@@ -54,13 +54,13 @@ export const IntroText = styled.p`
     line-height: 1.5;
 
     @media screen and (max-width: 768px){
-        font-size: 16px;
-        line-height: 1.2;
+        font-size: 20px;
+        line-height: 1.5;
         padding: 15px 0;
     }
 
     @media screen and (max-width: 480px){
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.2;
         padding: 15px 0;
     }

@@ -13,7 +13,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 500px;
+    // height: 500px;
     width: 100%;
     max-width: 1000px;
     margin-right: auto;
@@ -80,7 +80,7 @@ export const TopLine = styled.p`
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 520px) {
         font-size: 32px;
     }
  `;

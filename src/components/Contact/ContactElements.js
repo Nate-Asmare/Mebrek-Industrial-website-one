@@ -17,7 +17,7 @@ export const ContactWrapper = styled.div`
     align-items: center;
     grid-template-areas: 'col2 col1';
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 805px) {
         grid-template-areas: 'col1' 'col2';
     }
 
@@ -99,6 +99,8 @@ export const ContactForm = styled.form`
     margin: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px 25px;
     border-radius: 15px;
     background: rgba(255, 109, 106,0.3);
@@ -123,38 +125,53 @@ export const Header = styled.h2`
 export const Name = styled.input`
     margin: 8px 45px;
     height: 30px;
+    border-radius: 8px;
+    padding-left: 10px;
+    width: 90%;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 805px){
         margin: 8px 5px;
+        width: 60%;
     }
 
     @media screen and (max-width: 480px){
         margin: 8px 5px;
+        width: 90%;
     }
 `;
 
 export const Email = styled.input`
     margin: 8px 45px;
     height: 30px;
+    border-radius: 8px;
+    padding-left: 10px;
+    width: 90%;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 805px){
         margin: 8px 5px;
+        width: 60%;
     }
 
     @media screen and (max-width: 480px){
         margin: 8px 5px;
+        width: 90%;
     }
 `;
 export const Message = styled.textarea`
     margin: 8px 45px;
     height: 100px;
+    border-radius: 8px;
+    padding-left: 10px;
+    width: 90%;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 805px){
         margin: 8px 5px;
+        width: 60%;
     }
 
     @media screen and (max-width: 480px){
         margin: 8px 5px;
+        width: 90%;
     }
 `;
 

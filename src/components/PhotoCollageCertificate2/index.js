@@ -9,7 +9,7 @@ import image6 from '../../images/collage2/certificate6.jpg';
 
 const PhotoCollageCertificate = () => {
     return (
-        <CollageContainer id="certificates">
+        <CollageContainer>
             <CollageWrapper>
                 <Img src={image6} />
             </CollageWrapper>

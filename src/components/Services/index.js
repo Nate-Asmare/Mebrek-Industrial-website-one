@@ -57,8 +57,6 @@ const Services = () => {
                                     offset={-60}
                                     >More</ServiceLinks>
                 </ServicesCard>
-            </ServicesWrapper>
-            <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon4}/>
                     <ServicesH2>PLC Programing</ServicesH2>
@@ -89,7 +87,7 @@ const Services = () => {
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon6}/>
-                    <ServicesH2>Sound system equipment import, installation and maintenance</ServicesH2>
+                    <ServicesH2>Sound system equipment manufacture, installation and maintenance</ServicesH2>
                     <ServiceLinks 
                                     to="sound"
                                     smooth={true}
