@@ -22,12 +22,12 @@ const Contact = () => {
     return (
         <ContactContainer id="contacts">
             <ContactWrapper>
-                <ContactForm>
+                <ContactForm target="_blank" action="https://formsubmit.co/mebrekieeth@gmail.com" method="POST">
                     <Header>Contact Us</Header>
-                    <Name placeholder={" Your name here"}/>
-                    <Email placeholder={" Your email address here"}/>
-                    <Message placeholder={" message"}/>
-                    <Button>Submit</Button>
+                    <Name type="text" name="name" placeholder={" Your name here"} required/>
+                    <Email type="email" name="email" placeholder={" Your email address here"} required/>
+                    <Message name="message" placeholder={" message"} required/>
+                    <Button type="submit">Submit</Button>
                 </ContactForm>
                 <Contacts>
                     <ContactBlocks>
